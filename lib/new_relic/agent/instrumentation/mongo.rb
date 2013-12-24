@@ -30,7 +30,6 @@ DependencyDetection.defer do
   def install_mongo_instrumentation
     instrument_mongo_logging
     instrument_save
-    instrument_ensure_index
   end
 
   def instrument_mongo_logging
